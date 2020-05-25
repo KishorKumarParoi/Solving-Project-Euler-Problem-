@@ -13,7 +13,7 @@ The program runs instantly for the less than 1000 limit but we quickly learn tha
 to find a more efficient way of calculating this sum without looping.
 Just Look this version of problem -> https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem
 
-So we have to find more efficient scalable version
+So we have to find more efficient scalable version of COMPLEXITY just O(1)
 firstly, we all know about the n*(n+1)/2 which is used for getting the sum from 1 to n. We will use this formula's extended version.
 
 Column * Column Sum = (n/2) * (n+1) 
