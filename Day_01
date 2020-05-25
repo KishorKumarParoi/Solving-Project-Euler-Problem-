@@ -15,7 +15,9 @@ Just Look this version of problem -> https://www.hackerrank.com/contests/project
 
 So we have to find more efficient scalable version
 firstly, we all know about the n*(n+1)/2 which is used for getting the sum from 1 to n. We will use this formula's extended version.
-\displaystyle{\text{Columns * Column sum} = (\frac{n}{2})(n+1) = \frac{n(n+1)}{2}}
+
+Column * Column Sum = (n/2) * (n+1) 
+
 We can adapt this formula to count the numbers only divisible by d to a specific limit; such as n=33, d=3, in the following example.
 Remember when there is an odd number we start from zero to keep the columns paired. Here’s how the adaptation works:
 
@@ -24,9 +26,9 @@ Remember when there is an odd number we start from zero to keep the columns pair
 Each column sums to 33 and, using our understanding from above, we calculate 6*33 to find the sum of numbers to 33 that are evenly
 divisible by 3 (6*33=198)
 
-\displaystyle{m=\lfloor\frac{n}{d}\rfloor}
-
-\displaystyle{\sum\limits_{i=1}^m id = d\hspace{1mm}\frac{m(m+1)}{2}}
+d = 3 or 5 or any divisor
+m = floor(n/d)
+Summation for d's multiple in range = n*(n+1)*d/2
 
 if n = 20, then :
 for 3 ->
