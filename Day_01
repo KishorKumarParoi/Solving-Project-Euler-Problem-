@@ -39,7 +39,8 @@ m = 4, d=5, sum = 4*5*5/2 = 50
 like 5 + 10 + 15 + 20 = 50
 
  Adding those together is almost our answer but we must first subtract the sum of every 15th natural number (3 × 5) as it is counted 
- twice: once in the 3 summation and once again in the 5 summation. such as 15,30,45 both are divisble by 3 and 5 so we have to subtract multiples of 15
+ twice: once in the 3 summation and once again in the 5 summation. such as 15,30,45 both are divisble by 3 and 5 so we have to subtract
+ multiples of 15
  
  for 15-> do it yourself :D
  #feelfreetofail
